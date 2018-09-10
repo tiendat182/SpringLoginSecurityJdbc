@@ -22,7 +22,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  *
  */
 @Configuration
-@ComponentScan("org.o7planning.springmvcsecurity.*")
+@ComponentScan("org.o7planning.springmvcsecurity.*") 
 @EnableTransactionManagement
 @PropertySource("classpath:datasource-cfg.properties")
 public class ApplicationContextConfig {
